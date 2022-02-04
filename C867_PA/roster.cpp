@@ -166,7 +166,4 @@ Roster::~Roster()
 			delete classRosterArray[i];
 		}
 	}
-
-	// Unable to delete the Roster, throws exception
-	//delete this;
 }
